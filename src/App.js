@@ -1,32 +1,48 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout,Header, Navigation, Drawer, Content} from 'react-mdl';
-// import {Link} from 'react-router-dom'
+import { Layout,Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import {Link} from 'react-router-dom'
+import Main from './components/main'
 
 class App extends Component {
   render() {
     return (
+      <React.Fragment>
       <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(./assets/activity-adventure-backlit-450062.jpg) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+    <Layout style={{background: 'url(https://github.com/MiriamGaGuMuk/miriam-portfolio/blob/master/src/assets/activity-adventure-backlit-450062.png?raw=true) center / cover'}}>
+        <Header to='/' transparent title="MiriamGaGu" style={{color: 'white'}}>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="MiriamGaGu">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+              <Link to="/resume">Resume</Link>
+              <Link to="/aboutme">About Me</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content/>
     </Layout>
 </div>
+<div>
+<Main/>
+</div>
+<footer>
+<Footer size="mini">
+    <FooterSection type="left" logo="Title">
+        <FooterLinkList>
+            <a href="#">Help</a>
+            <a href="#">Privacy & Terms</a>
+        </FooterLinkList>
+    </FooterSection>
+</Footer>
+</footer>
+</React.Fragment>
     );
   }
 }
