@@ -8,9 +8,13 @@ class About extends Component{
             <section>
                 
             <div className="pimg1">
+            <section>
+            <div className="last-pimg">
                 <div className="ptext">
                      <span className="border">MiriamGaGu</span>
                 </div>
+                </div>
+            </section>
             </div>
             
 

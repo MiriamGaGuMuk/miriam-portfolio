@@ -60,7 +60,7 @@ body{
 
 /* About Me */
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3, .pimg4{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -91,13 +91,15 @@ body{
 
 .ping4{
   background-image:url('https://images.pexels.com/photos/954662/pexels-photo-954662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  min-height:400px;
+  min-height:100%;
 }
 
 
 .section, .last-pimg{
   text-align:center;
-  padding: 80px 110px;
+  width: 100%;
+  padding: 200px 330px;;
+  
 }
 
 .section-light{
