@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+/* font-family: 'Anonymous Pro', monospace; */
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+/* font-family: 'Kreon', serif; */
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+
+
+
+#contact-card{
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+
+.Contact{
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}

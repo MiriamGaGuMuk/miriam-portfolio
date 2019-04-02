@@ -1,0 +1,78 @@
+.pimg1, .pimg2, .pimg3, .pimg4{
+  height: 700px;
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('https://images.pexels.com/photos/1537689/pexels-photo-1537689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('https://images.pexels.com/photos/1853003/pexels-photo-1853003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('https://images.pexels.com/photos/66100/pexels-photo-66100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height:100%;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color: rgb(58, 39, 58);
+  color:rgb(230, 230, 230);
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment:scroll;
+  }
+}
