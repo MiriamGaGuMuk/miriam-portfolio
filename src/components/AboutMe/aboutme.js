@@ -10,37 +10,58 @@ class About extends Component{
             <div className="pimg1">
                     <div className="ptext">
                     <span className="border">
-                        Miriam Story Line
+                        Miriam
+                        <br/>
+                        <br/>
+                        <br/>
+                        Full Stack Web Developer
                     </span>
                     </div>
                 </div>
 
                 <section className="section section-light">
-                    <h2>🎵Composición musical🎵</h2>
+                    <h2 className="title">Y así llegué a ser FullStack Developer </h2>
                     <br/>
-                    <p>
-                    A una temprana edad sabía que la música sería una parte importnte en mi vida y lo fue. Mi prime acercamiento con la música fue en la secundaria, clases de música,
-                generalmente sólo se da un instrunento en general en las secundaria públicas <strong>flauta</strong>, pero el solfeo fue mi parte favorita, desde ese punto supe que la música 
-                y todo lo que implicaba era para mi.
-                Años después entre a Fermata, donde conocí no solo a personal increibles, pero también mi mundo dio un giro de 360°. El piano siempre fue para mi un instrumento mágico
-                así que ese fue el instrumento principal en mi enfoque de aprendizaje, pero siempre he sido una persona muy inquieta, no me basto con el piano, seguí con guitarra y violín.
+                    <p className="aboutBodyTxt">
+                        When you find that thing that you are made for is amazing, the feeling has no description. When I started studying music I knew
+                        I want to do this my whole life. It wasn't easy at all, not everything is cool parties and have fun all the time in the composition process, not at all,
+                        but I have always thought that doing what you love make it easier, more joyful and it was for me.
 
-                Quienes han estudiado música no me dejaran mentir, especializarse en algún instrumento no es sencillo, requiere dedicación, diciplina y esfuerzo
-                    </p>
+                        I had to quit to my music career when I had a little accident when I was playing basketball, at the beggining I never thought the injury wasn't that bad, I was wrong.
+                        I used to play piano, violin and guitar.
+                        After 12 years I realized that I could've continued with my carrer but it was very painful for me not to be able to paly what was in my mind
+                        and although I could've write it and someone could play it, at least for me it's not the same.
+
+                        When I started with the tech world I found some familiar patrons that you also can find in the software development, you need to be very
+                        proactive, practice a lot cause reading the documentation it's not enogh, you'l find a lot of obstacles but not giving up is the key, creativity is necessary for both,
+                        this last one could sound a little bit crazr but you have to be creative in sofware development too, it helps you to find the best solution for each problem, to ccreate awesome web pages, 
+                        to contribute and grow up faster in your carrer.
+
+                        Thta's why I choose like a second path Full stack web development.
+
+                        Throgh my webpage you can find so many image that maybe won't make sense, butI tried to represent my differents stages and how I ended choosing became a developer.
+
+                        I have always been hunger for learn new thing, sometimes by myself (most of the time), developers, the successful ones that I have the pleaseure to meet,
+                        all of them have this partical feature.
+
+                        I have worked in some many quadrants, from music, to beaty industry, health sector, the gastronomic world and ended in this incredible tech world.
+                        What I have learn lately is that 
+                    </p> 
                 </section>
 
                 <div className="pimg2">
+                    <div>
                     <div className="ptext">
-                    <span className="border">
-                    <Projects />
-                    </span>
+                    Projects
+                    </div>
+                    
                     </div>
                 </div>
                 
                 <section className="section section-dark">
-                    <h2>Projects</h2>
+                    {/* <h2>Projects</h2> */}
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+                    <Projects/>
                     </p>
                 </section>
 

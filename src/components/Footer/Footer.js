@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Footer, FooterSection, FooterLinkList} from 'react-mdl';
 import {Link} from 'react-router-dom';
+import './footer.css'
 
 class MainFooter extends Component{
     render(){

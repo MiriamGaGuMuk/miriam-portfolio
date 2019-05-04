@@ -8,6 +8,7 @@ import Resume from './components/Resume/resume'
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer'
 
+
 class App extends Component {
   render() {
     return (
@@ -16,11 +17,12 @@ class App extends Component {
         <NavBar/>
         <Switch>
             <Route exact path='/aboutme' component={AboutMe}/>
-            <Route exact path='/contact' component={Contact}/>
-            <Route exact path='/projects' component={Projects}/>
+            {/* <Route exact path='/contact' component={Contact}/>
+            <Route exact path='/projects' component={Projects}/> */}
             <Route exact path='/resume' component={Resume}/>
         </Switch>
         </div>
+        <AboutMe/>
         <Footer/>
         </React.Fragment>
     );
