@@ -5,16 +5,27 @@
 @import url('https://fonts.googleapis.com/css?family=Kreon');
 
 
-
-#contact-card{
-    border-radius: 10px;
+.mdl-card .mdl-shadow--2dp{
+    border-radius: 20px;
     width: 75%;
     margin: 0 auto;
-    /* margin-top: 50px; */
     margin-bottom: 50px;
+    box-shadow: 1px 0px 1px 0px rgba(39, 39, 39, 0.616);
 }
 
-.Contact{
-    font-weight: bold;
-    text-shadow: 1px 1px black;
+.mdl-list__item:hover{
+    background: #141414d0;
+    border-radius: 10px;
+}
+
+.mdl-list__item-primary-content i{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 18px;
 }
