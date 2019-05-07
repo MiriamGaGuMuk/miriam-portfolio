@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import './resume.css'
 import {Link} from 'react-router-dom'
 import {Button, Dialog, DialogTitle, DialogContent, DialogActions} from 'react-mdl'
-import Rate from 'rc-rate'
+// import Rate from 'rc-rate'
 
 class Resume extends Component{
     constructor(props) {
@@ -35,10 +35,20 @@ class Resume extends Component{
             </DialogTitle>
             <DialogContent className="dialog-content">
               <h4>FullStack Web Developer</h4>
-              <p>Muktek Academy</p>
-              <p>PuraScents</p>
-              <p>CompuCom</p>
               <div>
+                  <div className="resume-info">
+                    <span><i className="fas fa-at"></i> miriam.garci.guzman.novy@gmail.com</span>
+                    <span><i className="fas fa-mobile-alt"></i> 5512894295</span>
+                    <br/>
+                    <span><i className="fas fa-map-marker-alt"></i> Álvaro Obregón, CDMX</span>
+                    <span><i className="fas fa-female"></i> Edad: 31</span>
+                    <br/>
+                    <span><i className="fab fa-github"></i> /MiriamGaGuMuk</span>
+                    <span><i className="fab fa-gitlab"></i> /MiriamGaGu</span>
+                    <span><i className="fab fa-linkedin-in"></i> /miriamgagu</span>
+                    <br/>
+                </div>
+            
                   <h3>Idiomas</h3>
                   {/* <input name="rate" type="radio" value="3"/> */}
                   <div className="rate">
@@ -57,6 +67,7 @@ class Resume extends Component{
                     <span className="rating"><i class="far fa-check-circle"></i></span>
                   </div>
               </div>
+            
             </DialogContent>
             <DialogActions>
               <Button id="close-dialog" type='button' onClick={this.handleCloseDialog}><i class="far fa-times-circle"></i> Close </Button>

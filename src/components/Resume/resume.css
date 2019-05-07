@@ -43,3 +43,16 @@ span:nth-child(9){
     font-size: 20px;
     text-shadow: 0px 1px greenyellow;
 }
+
+.resume-info{
+    outline: 1px solid red;
+    color: white;
+    font-weight: 20px;
+}
+
+.resume-info i{
+    margin: 5px;
+    outline: 1px solid purple;
+    font-size: 20px;
+    margin-left: 5px;
+}
