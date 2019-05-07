@@ -16,7 +16,7 @@ class Projects extends Component{
                       <p>A ReactJs App Web (Front End)</p>
                       <a href="https://instagram-fullstack-clone.herokuapp.com//"><span>Demo</span></a>
                       <div className="sm">
-                        <a href="#https://github.com/MiriamGaGuMuk"><i className="fab fa-github"></i></a>
+                        <a href="https://github.com/MiriamGaGuMuk"><i className="fab fa-github"></i></a>
                         <a href="https://gitlab.com/MiriamGaGu"><i className="fab fa-gitlab"></i></a>
                         <a href="https://www.linkedin.com/in/miriamgagu/"><i className="fab fa-linkedin-in"></i></a>
                       </div>
@@ -44,7 +44,7 @@ class Projects extends Component{
 
                   <div className="card__project">
                   <div className="front">
-                    <img src="" alt="shot from App" />
+                    <img src="https://github.com/MiriamGaGuMuk/miriam-portfolio/blob/master/src/assets/connect-4.png?raw=true" alt="shot from App" />
                   </div>
                   <div className="back">
                     <div className="back-content middle">
@@ -58,6 +58,7 @@ class Projects extends Component{
                       </div>
                     </div>
                   </div>
+                  
                   </div>
                   
                 </React.Fragment>

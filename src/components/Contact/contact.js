@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Card, CardTitle, CardText, ListItem, List, ListItemContent} from 'react-mdl';
-import {Link} from 'react-router-dom';
 import './contact.css'
 
 class Contact extends Component{

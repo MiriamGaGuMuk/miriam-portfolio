@@ -3,3 +3,28 @@
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 /* font-family: 'Kreon', serif; */
 @import url('https://fonts.googleapis.com/css?family=Kreon');
+
+#dialog{
+    background: url('https://images.pexels.com/photos/1294668/pexels-photo-1294668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    opacity: 0.90;
+    width: 95%;
+    height: auto;
+    position: relative;
+    color: whitesmoke;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+#close-dialog{
+    background: rgba(0, 0, 0, 0.699);
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 18px;
+}
+
+.mdl-dialog__content .dialog-content, h4, p, h3{
+    color: wheat;
+    text-shadow: 1px 1px black;
+}

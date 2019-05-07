@@ -23,6 +23,13 @@ class About extends Component{
                     <h2 className="title">Y así llegué a ser FullStack Developer </h2>
                     <br/>
                     <p className="aboutBodyTxt">
+                        ¡¡Hey!!
+
+                        Bienvenido a mi página
+
+                        
+
+
                         When you find that thing that you are made for is amazing, the feeling has no description. When I started studying music I knew
                         I want to do this my whole life. It wasn't easy at all, not everything is cool parties and have fun all the time in the composition process, not at all,
                         but I have always thought that doing what you love make it easier, more joyful and it was for me.
