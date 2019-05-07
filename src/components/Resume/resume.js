@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './resume.css'
 import {Link} from 'react-router-dom'
 import {Button, Dialog, DialogTitle, DialogContent, DialogActions} from 'react-mdl'
+import Rate from 'rc-rate'
 
 class Resume extends Component{
     constructor(props) {
@@ -38,8 +39,23 @@ class Resume extends Component{
               <p>PuraScents</p>
               <p>CompuCom</p>
               <div>
-                  <h3>Tecnologías Software</h3>
-                  <input type="radio"/>
+                  <h3>Idiomas</h3>
+                  {/* <input name="rate" type="radio" value="3"/> */}
+                  <div className="rate">
+                    <span className="rating">Inglés</span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <br />
+                    <span className="rating">Alemán</span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                    <span className="rating"><i class="far fa-check-circle"></i></span>
+                  </div>
               </div>
             </DialogContent>
             <DialogActions>
