@@ -20,46 +20,35 @@ class About extends Component{
                 </div>
 
                 <section className="section section-light">
-                    <h2 className="title">Y así llegué a ser FullStack Developer </h2>
+                    <h3 className="title">Y así me convertí en FullStack Developer </h3>
                     <br/>
                     <p className="aboutBodyTxt">
                         ¡¡Hey!!
-
-                        Bienvenido a mi página
-
-                        
-
-
-                        When you find that thing that you are made for is amazing, the feeling has no description. When I started studying music I knew
-                        I want to do this my whole life. It wasn't easy at all, not everything is cool parties and have fun all the time in the composition process, not at all,
-                        but I have always thought that doing what you love make it easier, more joyful and it was for me.
-
-                        I had to quit to my music career when I had a little accident when I was playing basketball, at the beggining I never thought the injury wasn't that bad, I was wrong.
-                        I used to play piano, violin and guitar.
-                        After 12 years I realized that I could've continued with my carrer but it was very painful for me not to be able to paly what was in my mind
-                        and although I could've write it and someone could play it, at least for me it's not the same.
-
-                        When I started with the tech world I found some familiar patrons that you also can find in the software development, you need to be very
-                        proactive, practice a lot cause reading the documentation it's not enogh, you'l find a lot of obstacles but not giving up is the key, creativity is necessary for both,
-                        this last one could sound a little bit crazr but you have to be creative in sofware development too, it helps you to find the best solution for each problem, to ccreate awesome web pages, 
-                        to contribute and grow up faster in your carrer.
-
-                        Thta's why I choose like a second path Full stack web development.
-
-                        Throgh my webpage you can find so many image that maybe won't make sense, butI tried to represent my differents stages and how I ended choosing became a developer.
-
-                        I have always been hunger for learn new thing, sometimes by myself (most of the time), developers, the successful ones that I have the pleaseure to meet,
-                        all of them have this partical feature.
-
-                        I have worked in some many quadrants, from music, to beaty industry, health sector, the gastronomic world and ended in this incredible tech world.
-                        What I have learn lately is that 
+                        Bienvenid@ a mi página
+                    </p>
+                    <p className="aboutBodyTxt">
+                    <strong>¿Quién soy?</strong>
+                    <br/>
+                    Melómana, amante de los viajes y otras culturas,
+                    altermundista, contestataria, indómita, agnóstica, pragmático, subversivo e insurrecta
+                    <br/>
+                    Confío en que crearemos un mejor lugar.</p>
+                    <p className="aboutBodyTxt">
+                    <strong>Cambio de carrera</strong>
+                    <br/>
+                       De ser un músico a un desarrollador no ha sido fácil y muchos preguntan ¿por qué? ¿cómo fue esa tansición?
+                       Casi siempre doy la misma respuesta "y... ¿por qué no?
                     </p> 
+                    <p className="aboutBodyTxt">
+                    Mucho se habla dentro del mundo tech (al menos en mi experiencia) sobre salirse de la zona de comfort, aprender algo nuevo todos los días, bueno para mi, está fue mi
+                    forma de aprender algo nuevo y salirme de mi zona de comfort
+                    </p>
                 </section>
 
                 <div className="pimg2">
                     <div>
                     <div className="ptext">
-                    Projects
+                    <span className="border">Proyectos</span>
                     </div>
                     
                     </div>

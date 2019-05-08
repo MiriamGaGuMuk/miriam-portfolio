@@ -19,7 +19,7 @@ body,html{
   position: relative;
   height:100%;
   margin:0;
-  background: url('https://images.pexels.com/photos/92905/pexels-photo-92905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  /* background: url('https://images.pexels.com/photos/92905/pexels-photo-92905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
   background-attachment: fixed;
   /* opacity:0.70; */
   /* background-position:center;*/

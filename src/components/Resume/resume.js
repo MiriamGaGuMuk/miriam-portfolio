@@ -37,15 +37,15 @@ class Resume extends Component{
               <h4>FullStack Web Developer</h4>
               <div>
                   <div className="resume-info">
-                    <span><i className="fas fa-at"></i> miriam.garci.guzman.novy@gmail.com</span>
-                    <span><i className="fas fa-mobile-alt"></i> 5512894295</span>
+                    <a href="#"className="info__content"><i className="fas fa-at"></i> miriam.garci.guzman.novy@gmail.com</a>
+                    <a href="#"className="info__content"><i className="fas fa-mobile-alt"></i> +52 5512894295</a>
                     <br/>
-                    <span><i className="fas fa-map-marker-alt"></i> Álvaro Obregón, CDMX</span>
-                    <span><i className="fas fa-female"></i> Edad: 31</span>
+                    <a href="#"className="info__content"><i className="fas fa-map-marker-alt"></i> Álvaro Obregón, CDMX</a>
+                    <a href="#"className="info__content"><i className="fas fa-female"></i> Edad: 31</a>
                     <br/>
-                    <span><i className="fab fa-github"></i> /MiriamGaGuMuk</span>
-                    <span><i className="fab fa-gitlab"></i> /MiriamGaGu</span>
-                    <span><i className="fab fa-linkedin-in"></i> /miriamgagu</span>
+                    <a href="#"className="info__content"><i className="fab fa-github"></i> /MiriamGaGuMuk</a>
+                    <a href="#"className="info__content"><i className="fab fa-gitlab"></i> /MiriamGaGu</a>
+                    <a href="#"className="info__content"><i className="fab fa-linkedin-in"></i> /miriamgagu</a>
                     <br/>
                 </div>
             
