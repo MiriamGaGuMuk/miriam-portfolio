@@ -4,7 +4,7 @@
 .pimg1, .pimg2, .pimg3, .pimg4{
   height: 700px;
   position:relative;
-  opacity:0.80;
+  opacity:0.70;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -17,7 +17,7 @@
 }
 
 .pimg1{
-  background-image:url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image:url('https://images.pexels.com/photos/2237795/pexels-photo-2237795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   min-height:100%;
   
 }
@@ -31,7 +31,7 @@
 }
 
 .pimg3{
-  background-image:url('https://images.pexels.com/photos/1853003/pexels-photo-1853003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image:url('https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   min-height:100%;
   height: 300px;
 }
@@ -95,12 +95,20 @@
 }
 
 .title{
-  font-family: 'Cinzel Decorative', cursive;
   font-size: 30px;  
   color: white;
 }
 
-/* https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 
+#contacto{
+  word-break: break-word;
+}
+
+/*
+grey computer
+https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 
+purple baclground
+https://images.pexels.com/photos/2237795/pexels-photo-2237795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
 https://66.media.tumblr.com/b7117eb68274ea1811e0362d1b9910ff/tumblr_ngy9vsbJna1qav3uso2_r1_500.gif
 */
 
