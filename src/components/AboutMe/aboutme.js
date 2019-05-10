@@ -90,6 +90,7 @@ class About extends Component{
                 </div>
 
                 <section className="section section-dark">
+                <div className="skills">
                 <div>
                     <h4>Desarrollo</h4>
                 <Chip>
@@ -141,7 +142,7 @@ class About extends Component{
                 </div>
                 <div>
                 <Chip>
-                <ChipContact style={{ background: 'url("https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67") 0 0 / cover' }}/>
+                <ChipContact style={{ background: 'url("https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67") 0 0/ cover' }}/>
                     Github
                 </Chip>
                 </div>
@@ -162,6 +163,85 @@ class About extends Component{
                 <ChipContact style={{ background: 'url("https://d2.alternativeto.net/dist/icons/netlify-cms_89329.png?width=200&height=200&mode=crop&upscale=false") 0 0 / cover' }}/>
                     Netlify
                 </Chip>
+                </div>
+                <div>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://chocolatey.org/content/packageimages/sass.1.20.1.png") 0 0 / cover' }}/>
+                    Sass
+                </Chip>
+                </div>
+                <div>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://dl.myket.ir/newresizing/resize/medium/png/icon/8bb568f0-66f2-4093-a3fc-9794c499d93c_.png") 0 0 / cover' }}/>
+                    Materialize
+                </Chip>
+                </div>
+                <div>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://d2.alternativeto.net/dist/icons/bulma_95302.png?width=128&height=128&mode=crop&upscale=false") 0 0 / cover' }}/>
+                    Bulma
+                </Chip>
+                </div>
+                </div>
+                <div className="skills">
+                <div>
+                    <h4>Diseño</h4>
+                    <Chip>
+                <ChipContact style={{ background: 'url("https://www.avisosbogota.com/wp-content/uploads/2018/03/photoshop.png") 0 0 / cover' }}/>   
+                    PhotoShop 
+                </Chip>
+                </div>
+                <div>
+                    <Chip>
+                    <ChipContact style={{ background: 'url("http://www.myiconfinder.com/uploads/iconsets/256-256-573475efcae06860982aede57d9fd33b-illustrator.png") 0 0 / cover' }}/>   
+                    Illustrator
+                </Chip>
+                </div>
+                <div>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://img.informer.com/icons/png/128/3378/3378600.png") 0 0 / cover' }}/>   
+                    Magix Deluxe Video
+                </Chip>
+                </div>
+                <div>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://www.softexia.com/wp-content/uploads/2017/09/MAGIX_Photostory_Deluxe.png") 0 0 / cover' }}/>   
+                    Magix Photostory Deluxe
+                </Chip>
+                </div>
+                <div>
+                    <h4>Extras</h4>
+                <Chip>
+                <ChipContact style={{ background: 'url("https://www.macupdate.com/images/icons256/21404.png?d=1551351949") 0 0 / cover' }}/>   
+                    Melodyne
+                </Chip>
+                </div>
+                <div>
+                    <Chip>
+                    <ChipContact style={{ background: 'url("https://www.macupdate.com/images/icons256/21404.png?d=1551351949") 0 0 / cover'}}/>
+                        Nuendo
+                    </Chip>
+                    </div>
+                
+                <div>
+                    <h4>Idiomas</h4>
+                    <Chip>
+                    <ChipContact style={{ background: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiY7WMZwWEfZShKetKk5TzyJ7dwOc0xmfZaPleGpd1y6m0hlrm") 0 0 / cover' }}/>   
+                        Español(nativo)
+                    </Chip>
+                </div>
+                <div>
+                    <Chip>
+                    <ChipContact style={{ background: 'url("https://image.flaticon.com/icons/png/128/197/197484.png") 0 0 /cover'}}/>
+                        Inglés(Avanzado)
+                    </Chip>
+                </div>
+                <div>
+                    <Chip>
+                    <ChipContact style={{ background: 'url("http://www.iconarchive.com/download/i86200/custom-icon-design/round-world-flags/Germany.ico") 0 0 / cover'}}/>
+                        Alemán(Básico)
+                    </Chip>
+                </div>
                 </div>
                 </section>
 

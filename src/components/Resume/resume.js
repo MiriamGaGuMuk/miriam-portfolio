@@ -31,43 +31,25 @@ class Resume extends Component{
           <Link to='/' onClick={this.handleOpenDialog}>Resume</Link>
           <Dialog id="dialog" open={this.state.openDialog} onCancel={this.handleCloseDialog}>
             <DialogTitle>
-                <h3>Miriam García Guzmán</h3>
+                <h3>Miriam García Guzmán CV</h3>
             </DialogTitle>
             <DialogContent className="dialog-content">
-              <h4>FullStack Web Developer</h4>
-              <div>
-                  <div className="resume-info">
-                    <a href="#"className="info__content"><i className="fas fa-at"></i> miriam.garci.guzman.novy@gmail.com</a>
-                    <a href="#"className="info__content"><i className="fas fa-mobile-alt"></i> +52 5512894295</a>
-                    <br/>
-                    <a href="#"className="info__content"><i className="fas fa-map-marker-alt"></i> Álvaro Obregón, CDMX</a>
-                    <a href="#"className="info__content"><i className="fas fa-female"></i> Edad: 31</a>
-                    <br/>
-                    <a href="#"className="info__content"><i className="fab fa-github"></i> /MiriamGaGuMuk</a>
-                    <a href="#"className="info__content"><i className="fab fa-gitlab"></i> /MiriamGaGu</a>
-                    <a href="#"className="info__content"><i className="fab fa-linkedin-in"></i> /miriamgagu</a>
-                    <br/>
-                </div>
-            
-                  <h3>Idiomas</h3>
-                  {/* <input name="rate" type="radio" value="3"/> */}
-                  <div className="rate">
-                    <span className="rating">Inglés</span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <br />
-                    <span className="rating">Alemán</span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                    <span className="rating"><i class="far fa-check-circle"></i></span>
-                  </div>
+            <div className="cv__buttons">   
+              <Button id="first__link" raised accent ripple>
+                <a href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing">Ver Online</a>
+              </Button>
+              <Button raised accent ripple>
+                <a href="https://docs.google.com/uc?export=download&id=1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b"><i class="fas fa-download"></i></a>
+              </Button>
               </div>
-            
+              <div className="cv__buttons">
+                <Button id="first__link" raised accent ripple>
+                  <a href="https://drive.google.com/file/d/1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_/view?usp=sharing">Online Inglés</a>
+                </Button>
+                <Button raised accent ripple>
+                  <a href="https://docs.google.com/uc?export=download&id=1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_"><i class="fas fa-download"></i> Inglés</a>
+                </Button>
+              </div>
             </DialogContent>
             <DialogActions>
               <Button id="close-dialog" type='button' onClick={this.handleCloseDialog}><i class="far fa-times-circle"></i> Close </Button>

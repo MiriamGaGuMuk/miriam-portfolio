@@ -6,15 +6,14 @@
 
 #dialog{
     background: url('https://images.pexels.com/photos/1294668/pexels-photo-1294668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-    /* opacity: 0.90; */
-    width: 95%;
+    opacity: 0.95;
+    width: 50%;
     height: auto;
     position: relative;
-    color: whitesmoke;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-
+    text-align: center;
 }
 
 #close-dialog{
@@ -22,44 +21,28 @@
     color: white;
     font-family: 'Anonymous Pro', monospace;
     font-size: 18px;
+    
 }
 
-.mdl-dialog__content .dialog-content, h4, p, h3{
+.dialog-content, h4, p, h3{
     color: wheat;
     text-shadow: 1px 1px black;
+    
+    
 }
 
-.rating{
-    margin-right: 3px;
-    color: white;
-    font-size: 20px;
+.cv__buttons{
+    margin-right: 10%;
+    display: inline-block;
+    
+
+}
+.cv__buttons a{
+    text-shadow: 0px 1px purple;
 }
 
-.rate span:nth-child(2), span:nth-child(3),
-span:nth-child(4), span:nth-child(5), 
-span:nth-child(9){
-    color: rgb(66, 123, 133);
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 0px 1px rgba(228, 185, 245, 0.623);
+#first__link{
+    margin: 10px; 
+    margin-right: 5px;
 }
 
-.resume-info{
-    /* outline: 1px solid red; */
-    color: white;
-    font-weight: 20px;
-}
-
-.resume-info a{
-    margin: 5px;
-    margin-right: 10px;
-    color: white;    
-    /* outline: 1px solid purple; */
-    font-size: 20px;
-    margin-left: 5px;
-}
-
-.info__content{
-    color: white;
-    margin-left: 3px;
-}
