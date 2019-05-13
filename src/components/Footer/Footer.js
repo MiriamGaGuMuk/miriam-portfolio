@@ -16,6 +16,7 @@ class MainFooter extends Component{
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
                         </FooterLinkList>
+                        
                     </FooterSection>
                 </Footer>
             </footer>

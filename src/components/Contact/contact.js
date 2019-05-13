@@ -7,8 +7,8 @@ class Contact extends Component{
         return(
           <div>
             <div>
-            <content >
-                <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+            <content>
+                <Card id="contact__card">
                     <CardTitle  style={{color: '#fff', height: '350px', background: 'url(https://media1.giphy.com/media/zSiEygkcONzyw/giphy.gif?cid=790b76115cd3683a335a2e6c515684b3&rid=giphy.gif) center / cover'}}></CardTitle>
                     <CardText>
                     <List>

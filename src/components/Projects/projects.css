@@ -69,3 +69,16 @@
   .card__project:hover > .back{
     transform: perspective(600px) rotateY(0deg);
   }
+
+  @media(max-width:568px){
+    .card__project{
+        width: 140px;
+        height: 240px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 425px){
+    .sm, .sm a, h2, p, span{
+      font-size: 12px;
+    }
+  }

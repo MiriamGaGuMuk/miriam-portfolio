@@ -2,3 +2,14 @@ footer{
     position: absolute;
     width: 100%;
 }
+
+.mdl-logo{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    footer{
+        width: auto;
+    }
+}

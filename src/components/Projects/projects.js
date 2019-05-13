@@ -33,7 +33,7 @@ class Projects extends Component{
                       <h2>Greener</h2>
                       <p>Firebase, Vanilla JS</p>
                       <a href="https://miriamgagu.github.io/cdmx-2018-06-bc-core-am-social-network/src/index.html"><span>Demo</span></a>
-                      <div class="sm">
+                      <div className="sm">
                         <a href="#https://github.com/MiriamGaGuMuk"><i className="fab fa-github"></i></a>
                         <a href="https://gitlab.com/MiriamGaGu"><i className="fab fa-gitlab"></i></a>
                         <a href="https://www.linkedin.com/in/miriamgagu/"><i className="fab fa-linkedin-in"></i></a>

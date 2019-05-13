@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css?family=Kreon');
 
 
-.mdl-card .mdl-shadow--2dp{
+#contact__card{
     border-radius: 20px;
     width: 75%;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 50px;
     box-shadow: 1px 0px 1px 0px rgba(39, 39, 39, 0.616);
@@ -29,3 +30,12 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+@media screen and (min-width: 320px) and (max-width: 425px){
+    #contact__card{
+        position: relative;
+        width: 250px;
+        height: auto;
+        font-size: 12px;
+        
+    }
+  }

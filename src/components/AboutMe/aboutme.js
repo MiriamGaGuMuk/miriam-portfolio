@@ -8,6 +8,7 @@ class About extends Component{
     render(){
         return(
             <React.Fragment>
+            <div id="root">
             <div className="pimg1">
                     <div className="ptext">
                     <span className="border">
@@ -59,7 +60,7 @@ class About extends Component{
                     <br/>
                     <br/>
                     De lo mejor que puedes tener es estos procesos son los amigos, conocidos y contactos, las experiencias que adquieres en el entorno personal son igual (me atrevo a decir más) de satisfactorias que las técnicas. En mi generación de Muktek
-                    "LAMAT" la complicidad que hubo todo el tiempo, la amistad que se generó y las experiencias vividas fueron únicas y enriquecedoras (perdón a nuestro instructor por los malos ratos que le hicimos pasar de se así).
+                    "LAMAT" la complicidad que hubo todo el tiempo, la amistad que se generó y las experiencias vividas fueron únicas y enriquecedoras (perdón a nuestro instructor por los malos ratos que le hicimos pasar de ser así).
                  </p>
                  <p className="aboutBodyTxt">
                     No tengo idea de a donde me llevará este nuevo camino, pero si voy a cometer errores que sean nuevos, además he aprendido en este proceso que los errores son el mejor maestro. Adoro los misterios, hay partes que parecen no encajar, pero al final lo hacen y todo cobra sentido.
@@ -76,9 +77,9 @@ class About extends Component{
                 </div>
                 
                 <section className="section section-dark">
-                    <p>
-                    <Projects/>
-                    </p>
+                    <div>
+                        <Projects/>
+                    </div>
                 </section>
 
                 <div className="pimg3">
@@ -257,6 +258,7 @@ class About extends Component{
                     <h2 id="contacto">Contacto</h2>
                    <Contact/>
                 </section>
+            </div>
             </React.Fragment>
         )
     }
