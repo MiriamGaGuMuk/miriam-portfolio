@@ -23,7 +23,22 @@ class Resume extends Component{
         openDialog: false
       });
     }
-              
+
+    viewOnlineES(){
+      window.location.href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing"
+    }
+
+    viewOnlineEN(){
+      window.location.href="https://drive.google.com/file/d/1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_/view?usp=sharing"
+    }
+
+    downloadES(){
+      window.location.href="https://docs.google.com/uc?export=download&id=1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b"
+    }
+    
+    downloadEN(){
+      window.location.href="https://docs.google.com/uc?export=download&id=1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_"
+    }
     render() {
 
       return (
@@ -35,19 +50,19 @@ class Resume extends Component{
             </DialogTitle>
             <DialogContent className="dialog-content">
             <div className="cv__buttons">   
-              <Button id="first__link" raised accent ripple>
-                <a href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing">Ver Online</a>
+              <Button id="first__link" raised accent ripple onClick={this.viewOnlineES}>
+                Ver Online
               </Button>
-              <Button raised accent ripple>
-                <a href="https://docs.google.com/uc?export=download&id=1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b"><i className="fas fa-download"></i></a>
+              <Button raised accent ripple onClick={this.downloadES}>
+                <i className="fas fa-download"></i>
               </Button>
               </div>
               <div className="cv__buttons">
-                <Button id="first__link" raised accent ripple>
-                  <a href="https://drive.google.com/file/d/1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_/view?usp=sharing">Online Inglés</a>
+                <Button id="first__link" raised accent ripple onClick={this.viewOnlineEN}>
+                  Online Inglés
                 </Button>
-                <Button raised accent ripple>
-                  <a href="https://docs.google.com/uc?export=download&id=1AlGKuysK4_sn3yaUGq7XL6Y5zXYMJ3r_"><i className="fas fa-download"></i> Inglés</a>
+                <Button raised accent ripple onClick={this.downloadEN}>
+                   <i className="fas fa-download"> </i> Inglés
                 </Button>
               </div>
             </DialogContent>
