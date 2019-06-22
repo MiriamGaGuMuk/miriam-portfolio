@@ -68,7 +68,7 @@ class Projects extends Component{
                     <div className="back-content middle">
                       <h2>Rock Paper Scisors</h2>
                       <p>Vanilla JS</p>
-                      <a href="https://connect-4-miriam.netlify.com/"><span>Demo</span></a>
+                      <a href="https://miriamgagumuk.github.io/Rock-Paper-Scissors/main.html"><span>Demo</span></a>
                       <div className="sm">
                         <a href="https://github.com/MiriamGaGuMuk"><i className="fab fa-github"></i></a>
                         <a href="https://gitlab.com/MiriamGaGu"><i className="fab fa-gitlab"></i></a>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Footer, FooterSection, FooterLinkList} from 'react-mdl';
+import {Footer, FooterSection, FooterLinkList, Button} from 'react-mdl';
 import {Link} from 'react-router-dom';
 import './footer.css'
 import Resume from '../Resume/resume'
@@ -9,15 +9,23 @@ class MainFooter extends Component{
         return(
             <footer>
                 <Footer size="mini">
-                    <FooterSection type="bottom" logo="MiriamGaGu">
+                    <FooterSection>
                         <FooterLinkList>
+                            <Button id="resume-btn">
                             <Resume/>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                            </Button>
+                        {/* <Link to="/aboutme">About Me</Link> */}
+                        {/* <Link to="/projects">Projects</Link>
+                        <Link to="/contact">Contact</Link> */}
                         </FooterLinkList>
                         
                     </FooterSection>
+                    <FooterSection type="bottom">
+                        <Link to="/" id="made-with">
+                        Made with <i class="fab fa-react"></i> + <i class="fab fa-gratipay"></i> and <i class="far fa-clock"></i> . 
+                        </Link>
+                    </FooterSection>
+                    
                 </Footer>
             </footer>
         );
