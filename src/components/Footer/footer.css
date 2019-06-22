@@ -1,7 +1,6 @@
-footer{
-    position: absolute;
+/* footer{
     width: 100%;
-}
+} */
 
 .mdl-logo{
     font-size: 25px;
@@ -9,7 +8,10 @@ footer{
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px){
-    footer{
-        width: auto;
+    .mdl-logo{
+        font-size: 15px;
+    }
+    .mdl-mini-footer__link-list a{
+        font-size: 15px;
     }
 }

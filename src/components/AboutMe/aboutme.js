@@ -30,7 +30,7 @@ class About extends Component{
                     <strong>¿Quién soy?</strong>
                     <br/>
                     Melómana, amante de los viajes y otras culturas,
-                    altermundista, contestataria, indómita, agnóstica, pragmático, subversivo e insurrecta
+                    altermundista, contestataria, indómita, agnóstica, pragmática, subversiva e insurrecta
                     <br/>
                     Confío en que crearemos un mejor lugar.</p>
                     <p className="aboutBodyTxt">

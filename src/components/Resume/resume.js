@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react'
 import './resume.css'
 import {Link} from 'react-router-dom'
@@ -23,6 +24,8 @@ class Resume extends Component{
         openDialog: false
       });
     }
+
+    
               
     render() {
 
@@ -36,7 +39,7 @@ class Resume extends Component{
             <DialogContent className="dialog-content">
             <div className="cv__buttons">   
               <Button id="first__link" raised accent ripple>
-                <a href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing">Ver Online</a>
+                <a href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing"></a>Ver Online
               </Button>
               <Button raised accent ripple>
                 <a href="https://docs.google.com/uc?export=download&id=1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b"><i className="fas fa-download"></i></a>

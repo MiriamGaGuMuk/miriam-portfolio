@@ -6,7 +6,7 @@ class Projects extends Component{
         return(
             <React.Fragment>
               
-                <div className="card__project">
+                {/* <div className="card__project">
                   <div className="front">
                     <img src="https://images.pexels.com/photos/1035103/pexels-photo-1035103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="shot from App" />
                   </div>
@@ -22,7 +22,7 @@ class Projects extends Component{
                       </div>
                     </div>
                   </div>
-                  </div>
+                  </div> */}
                   
                   <div className="card__project">
                   <div className="front">
@@ -57,8 +57,25 @@ class Projects extends Component{
                         <a href="https://www.linkedin.com/in/miriamgagu/"><i className="fab fa-linkedin-in"></i></a>
                       </div>
                     </div>
+                  </div>                  
                   </div>
-                  
+
+                  <div className="card__project">
+                  <div className="front">
+                    <img src="https://images.pexels.com/photos/2110357/pexels-photo-2110357.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="shot from App" />
+                  </div>
+                  <div className="back">
+                    <div className="back-content middle">
+                      <h2>Rock Paper Scisors</h2>
+                      <p>Vanilla JS</p>
+                      <a href="https://connect-4-miriam.netlify.com/"><span>Demo</span></a>
+                      <div className="sm">
+                        <a href="https://github.com/MiriamGaGuMuk"><i className="fab fa-github"></i></a>
+                        <a href="https://gitlab.com/MiriamGaGu"><i className="fab fa-gitlab"></i></a>
+                        <a href="https://www.linkedin.com/in/miriamgagu/"><i className="fab fa-linkedin-in"></i></a>
+                      </div>
+                    </div>
+                  </div>
                   </div>
                   
                 </React.Fragment>

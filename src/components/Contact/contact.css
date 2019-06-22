@@ -14,6 +14,10 @@
     box-shadow: 1px 0px 1px 0px rgba(39, 39, 39, 0.616);
 }
 
+#contact__img{
+    height: 325px;
+}
+
 .mdl-list__item:hover{
     background: #141414d0;
     border-radius: 10px;
@@ -30,12 +34,27 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+
 @media screen and (min-width: 320px) and (max-width: 425px){
     #contact__card{
-        position: relative;
-        width: 250px;
-        height: auto;
-        font-size: 12px;
-        
+        width: 220px;
+        height: auto;        
     }
+    #contact__img{
+        height: 125px;
+    }
+
+    .mdl-list{
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .mdl-list__item-primary-content i{
+        font-size: 11px;
+        margin-right: 0;
+    }
+
+    /* .hidden{
+       display: hide;
+    } */
   }
