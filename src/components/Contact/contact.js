@@ -27,6 +27,7 @@ class Contact extends Component{
                     </List>
                     </CardText>
                 </Card>
+                <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="miriamgagu"><a class="LI-simple-link" href='https://mx.linkedin.com/in/miriamgagu?trk=profile-badge'>Miriam García Guzmán</a></div>
             </content>
             </div>
             </div>
