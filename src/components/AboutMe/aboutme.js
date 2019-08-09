@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './aboutme.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Projects from '../Projects/projects';
 import Contact from '../Contact/contact';
 import {Chip, ChipContact} from 'react-mdl';
@@ -27,7 +28,9 @@ class About extends Component{
                      <span>a</span>
                      <span>m</span>
                     </h1>
+                    <ScrollAnimation animateIn="fadeIn"> 
                     <p className="aboutBodyTxt">
+                        
                     <strong>¿Quién soy?</strong>
                     <br/>
                     Melómana, amante de los viajes y otras culturas,
@@ -66,8 +69,9 @@ class About extends Component{
                  <p className="aboutBodyTxt">
                     No tengo idea de a donde me llevará este nuevo camino, pero si voy a cometer errores que sean nuevos, además he aprendido en este proceso que los errores son el mejor maestro. Adoro los misterios, hay partes que parecen no encajar, pero al final lo hacen y todo cobra sentido.
                  </p>
+                 </ScrollAnimation> 
                 </section>
-
+                
                 <div className="pimg2">
                     <div>
                     <div className="ptext">
