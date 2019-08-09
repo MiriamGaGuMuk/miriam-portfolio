@@ -12,20 +12,21 @@ class About extends Component{
             <div className="pimg1">
                     <div className="ptext">
                     <span className="border">
-                        Miriam
-                        <br/>
-                        <br/>
-                        <br/>
                         Full Stack Web Developer
                     </span>
                     </div>
                 </div>
 
                 <section className="section section-light">
-                    <h3 className="title">¡¡Hey!!
-                    <br/>
-                        Bienvenid@ a mi página </h3>
-                    <br/>
+
+                    <h1 className="title">
+                     <span>M</span>
+                     <span>i</span>
+                     <span>r</span>
+                     <span>i</span>
+                     <span>a</span>
+                     <span>m</span>
+                    </h1>
                     <p className="aboutBodyTxt">
                     <strong>¿Quién soy?</strong>
                     <br/>
