@@ -26,7 +26,7 @@ class Resume extends Component{
     }
 
     viewOnlineES(){
-      window.location.href="https://drive.google.com/file/d/1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b/view?usp=sharing"
+      window.location.href="https://drive.google.com/file/d/1d_qiXeucmwHIFnFijyKOpwJYORdLUWnG/view?usp=sharing"
     }
 
     viewOnlineEN(){

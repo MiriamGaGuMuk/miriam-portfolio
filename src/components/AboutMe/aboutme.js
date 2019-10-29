@@ -28,7 +28,7 @@ class About extends Component{
                      <span>a</span>
                      <span>m</span>
                     </h1>
-                    <ScrollAnimation animateIn="fadeIn"> 
+                    <ScrollAnimation animateIn="fadeInUpBig" style="animation-duration: 1s; opacity: 1;"> 
                     <p className="aboutBodyTxt">
                         
                     <strong>¿Quién soy?</strong>
