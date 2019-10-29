@@ -26,7 +26,7 @@ class Resume extends Component{
     }
 
     viewOnlineES(){
-      window.location.href="https://drive.google.com/file/d/1d_qiXeucmwHIFnFijyKOpwJYORdLUWnG/view?usp=sharing"
+      window.location.href="https://drive.google.com/file/d/15-G6wNM0B1HeJ8YwAl0wXyIhw_rJ_fZ4/view?usp=sharing"
     }
 
     viewOnlineEN(){
@@ -34,7 +34,7 @@ class Resume extends Component{
     }
 
     downloadES(){
-      window.location.href="https://docs.google.com/uc?export=download&id=1CKYCfUzdPRjOs598i-qIMnMOww1Onb7b"
+      window.location.href="https://docs.google.com/uc?export=download&id=15-G6wNM0B1HeJ8YwAl0wXyIhw_rJ_fZ4"
     }
     
     downloadEN(){
